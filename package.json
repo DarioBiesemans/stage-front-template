@@ -1,0 +1,27 @@
+{
+  "name": "my-web-component",
+  "version": "0.0.1",
+  "description": "A description for your new web component",
+  "flat": true,
+  "main": "my-web-component.js",
+  "author": "Dario Biesemans",
+  "license": "BSD-3-Clause",
+  "unpkg": "my-web-component.js",
+  "scripts": {
+    "serve": "polymer serve",
+    "publish": "npm publish"
+  },
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "mqtt_lib": "^1.1.7"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
+    "exports-loader": "^0.7.0",
+    "wct-browser-legacy": "^1.0.0"
+  },
+  "resolutions": {
+    "@webcomponents/webcomponentsjs": "^2.0.0"
+  }
+}
